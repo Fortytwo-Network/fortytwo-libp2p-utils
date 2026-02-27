@@ -1,0 +1,12 @@
+[package]
+name = "fortytwo-libp2p-utils"
+version = "0.1.0"
+edition = "2021"
+description = "Shared libp2p utilities for the Fortytwo Network"
+license = "MIT"
+
+[dependencies]
+libp2p = { version = "0.56.0", features = ["identify"] }
+
+[dev-dependencies]
+libp2p = { version = "0.56.0", features = ["identify"] }
